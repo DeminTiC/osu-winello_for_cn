@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# if the path ends in a quote, strip it, otherwise keep full path
+if [[ "${2}" == *'"' ]]; then
+    truepath="${2%?}"
+else
+    truepath="${2}"
+fi
+
+# use winepath to convert the Windows path to a proper Unix path
+unixpath="$("$WINE_PATH" winepath -u "$truepath")"
+exec "$1" "$unixpath"
