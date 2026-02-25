@@ -1,6 +1,14 @@
 # osu-winello_for_cn
 此脚本由原版osu-winello修改而来，可实现加速下载，并且实现主要内容汉化。
 
+针对本项目，您可以直接：
+```
+git clone https://github.com/DeminTiC/osu-winello_for_cn.git
+cd osu-winello_for_cn
+chmod +x ./osu-winello.sh
+./osu-winello.sh
+```
+
 以下内容复制自osu-wine原项目
 
 # osu-winello
