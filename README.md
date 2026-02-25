@@ -8,7 +8,7 @@ cd osu-winello_for_cn
 chmod +x ./osu-winello.sh
 ./osu-winello.sh
 ```
-
+本人严格遵循GPL协议
 以下内容复制自osu-wine原项目
 
 # osu-winello
